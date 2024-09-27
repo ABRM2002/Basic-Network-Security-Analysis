@@ -68,5 +68,9 @@ Opening a SSH Session with the same Device as in Task 5, capturing the traffic a
 
 ![image](https://github.com/user-attachments/assets/fa1f53e1-00f7-405b-a816-8b837b04dc89)
 
+![Screenshot 2024-09-27 194118](https://github.com/user-attachments/assets/d1197104-e248-4883-95b6-2b0f40d6c8ac)
+
+![Screenshot 2024-09-27 200422](https://github.com/user-attachments/assets/09abe775-e46c-4b29-8662-018b3b3c28de)
+
 
 Decrypt the SSL traffic with the help of Pre Master Secret Key method.
