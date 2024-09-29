@@ -44,7 +44,7 @@ Capturing some network traffic that is flowing through the machine presently at 
 
 Knowing what the RADIUS Architecture consists of and decrypting the encrypted password with the shared-secret using Wireshark.
 
--Set Up a RADIUS Server: Use a tool like FreeRADIUS.
+-Set Up a RADIUS Server: Use a tool like FreeRADIUS / Public Radius Server.
 
 -Configure a RADIUS Client: Set up a device (e.g., a network access control device) to use RADIUS.
 
