@@ -18,7 +18,7 @@ The Basic Network Security Analysis is a guided project offered by coursera whic
 
 ## Steps
 
-##Task 1: Get to know Wireshark and its basic functionalities
+## Task 1: Get to know Wireshark and its basic functionalities
 
 ![Screenshot 2024-09-27 181700](https://github.com/user-attachments/assets/77fc86b3-05c5-464c-8810-849aa710f80a)
 
@@ -37,7 +37,7 @@ Capturing some network traffic that is flowing through the machine presently at 
 
 
 
-##Task 2: Generate and Capture RADIUS Traffic
+## Task 2: Generate and Capture RADIUS Traffic
 
 ![image](https://github.com/user-attachments/assets/a6b078ab-8947-41e9-9636-81f28e47878b)
 
@@ -59,7 +59,7 @@ Knowing what the RADIUS Architecture consists of and decrypting the encrypted pa
 
 
 
-##Task 3: Analyze a HTTP Basic Authentication
+## Task 3: Analyze a HTTP Basic Authentication
 
 ![Screenshot 2024-09-27 173539](https://github.com/user-attachments/assets/7bef794f-51e0-417d-9e74-61a578eb7422)
 
@@ -78,7 +78,7 @@ Knowing the basics about HTTP, and knowing the difference between Wireshark’s 
 
 
 
-##Task 4: HTTP Form-Based Authentication and DNS
+## Task 4: HTTP Form-Based Authentication and DNS
 
 ![Screenshot 2024-09-27 184442](https://github.com/user-attachments/assets/5b538f5d-12e2-4cf4-9832-a6f832921a48)
 
@@ -99,7 +99,7 @@ Initiating an HTTP Form-based authentication, capturing it in Wireshark and anal
 
 
 
-##Task 5: Initiate, Capture and Analyze Telnet Sessions
+## Task 5: Initiate, Capture and Analyze Telnet Sessions
 
 ![WhatsApp Image 2024-09-27 at 17 20 41_b39b6284](https://github.com/user-attachments/assets/bca6406a-dffb-4a92-865c-5dd4e4552d49)
 
@@ -120,7 +120,7 @@ Initiating an HTTP Form-based authentication, capturing it in Wireshark and anal
 
 
 
-##Task 6: Capturing and Analyzing SSH Sessions
+## Task 6: Capturing and Analyzing SSH Sessions
 
 ![WhatsApp Image 2024-09-27 at 17 09 59_913bcebf](https://github.com/user-attachments/assets/78db46cb-bab7-4321-a1c5-d0f98008c5ac)
 
@@ -148,7 +148,7 @@ Opening a SSH Session with the same Device as in Task 5, capturing the traffic a
 
 
 
-##Task 7: Generate, Capture, Analyze then Decrypt HTTPS Traffic
+## Task 7: Generate, Capture, Analyze then Decrypt HTTPS Traffic
 
 
 ![image](https://github.com/user-attachments/assets/fa1f53e1-00f7-405b-a816-8b837b04dc89)
