@@ -25,12 +25,26 @@ The Basic Network Security Analysis is a guided project offered by coursera whic
 
 Capturing some network traffic that is flowing through the machine presently at the time and analyzing already captured network traffic by opening a stored capture file.
 
+-Start a Capture: Click the red circle button (Start) to begin capturing traffic.
+-Filter Traffic: Use the filter bar to focus on specific traffic (e.g., "http", "tcp.port==80").
+-Analyze Captured Data: Examine packet details, especially source/destination IP addresses, protocols, and payload.
+-Save the Capture: Click "File" -> "Save as" to save the captured data.
+
+
+
 -Task 2: Generate and Capture RADIUS Traffic
 
 ![image](https://github.com/user-attachments/assets/a6b078ab-8947-41e9-9636-81f28e47878b)
 
 
 Knowing what the RADIUS Architecture consists of and decrypting the encrypted password with the shared-secret using Wireshark.
+
+-Set Up a RADIUS Server: Use a tool like FreeRADIUS.
+-Configure a RADIUS Client: Set up a device (e.g., a network access control device) to use RADIUS.
+-Capture Traffic: Start Wireshark and initiate authentication requests.
+-Analyze Traffic: Look for RADIUS packets (e.g., Access-Request, Access-Accept).
+-Decrypt Passwords: While Wireshark can't directly decrypt RADIUS passwords, you can sometimes see them in clear text if not properly encrypted.
+
 
 -Task 3: Analyze a HTTP Basic Authentication
 
@@ -39,6 +53,14 @@ Knowing what the RADIUS Architecture consists of and decrypting the encrypted pa
 
 Knowing the basics about HTTP, and knowing the difference between Wireshark’s Capture and Display Filters. Connecting to an HTTP Server and initiating a Basic HTTP Authentication and capturing its Traffic on Wireshark, analyzing the captured packets and seeing the username and password being sent.
 
+
+ -Start a Wireshark Capture: Begin capturing traffic.
+ -Open a Web Browser: Navigate to a website requiring basic HTTP authentication.
+ -Enter Credentials: Provide your username and password.
+ -Analyze Traffic: Examine HTTP requests and responses, focusing on the "Authorization" header.
+
+
+
 -Task 4: HTTP Form-Based Authentication and DNS
 
 ![Screenshot 2024-09-27 184442](https://github.com/user-attachments/assets/5b538f5d-12e2-4cf4-9832-a6f832921a48)
@@ -46,12 +68,28 @@ Knowing the basics about HTTP, and knowing the difference between Wireshark’s 
 
 Initiating an HTTP Form-based authentication, capturing it in Wireshark and analyzing it so you can see the username and password clearly. Also Capturing DNS Traffic.
 
+
+  -Start a Wireshark Capture: Begin capturing traffic.
+  -Access a Website: Visit a website with form-based authentication.
+  -Submit the Form: Enter credentials and submit the form.
+  -Analyze Traffic: Examine HTTP POST requests containing form data and DNS requests/responses.
+
+
+
 -Task 5: Initiate, Capture and Analyze Telnet Sessions
 
 ![WhatsApp Image 2024-09-27 at 17 20 41_b39b6284](https://github.com/user-attachments/assets/bca6406a-dffb-4a92-865c-5dd4e4552d49)
 
 
  Knowing how Telnet works, starting a Telnet Session with a remote Device using PowerShell, capturing its traffic in Wireshark and analyzing it from the Security perspective.
+
+
+
+ -Start a Wireshark Capture: Begin capturing traffic.
+ -Open a Telnet Session: Use the "telnet" command to connect to a remote device.
+ -Analyze Traffic: Examine Telnet packets, focusing on commands and responses.
+
+
 
 -Task 6: Capturing and Analyzing SSH Sessions
 
@@ -64,6 +102,16 @@ Initiating an HTTP Form-based authentication, capturing it in Wireshark and anal
 
 Opening a SSH Session with the same Device as in Task 5, capturing the traffic and comparing it with the Telnet Packet Capture. Capturing traffic based on the host involved and how to see all the host, packet and protocol statistics as well as conversations that have happened in a certain Capture
 
+
+
+-Start a Wireshark Capture: Begin capturing traffic.
+-Open an SSH Session: Use an SSH client (e.g., Putty) to connect to a remote device.
+-Analyze Traffic: Compare SSH traffic to Telnet traffic (encrypted vs. cleartext).
+-Capture Traffic by Host: Use filters like "ip.src==<host_ip>" or "ip.dst==<host_ip>".
+-View Conversations: Use the "Follow" menu to follow TCP streams or UDP flows.
+
+
+
 -Task 7: Generate, Capture, Analyze then Decrypt HTTPS Traffic
 
 ![image](https://github.com/user-attachments/assets/fa1f53e1-00f7-405b-a816-8b837b04dc89)
@@ -73,4 +121,16 @@ Opening a SSH Session with the same Device as in Task 5, capturing the traffic a
 ![Screenshot 2024-09-27 200422](https://github.com/user-attachments/assets/09abe775-e46c-4b29-8662-018b3b3c28de)
 
 
-Decrypt the SSL traffic with the help of Pre Master Secret Key method.
+Decrypt the SSL traffic with the help of Pre Master Secret Key method.[sslkeylogfile]
+
+
+ -Start a Wireshark Capture:* Begin capturing traffic.
+ -Access an HTTPS Website: Visit a website using HTTPS.
+ -Analyze Traffic: Most of the data will be encrypted.
+ -Decrypt (Optional): If you have the server's private key, you can import it into Wireshark to decrypt traffic.
+
+
+
+
+
+
