@@ -168,3 +168,14 @@ Decrypt the SSL traffic with the help of Pre Master Secret Key method.[sslkeylog
  -Analyze Traffic: Most of the data will be encrypted.
  
  -Decrypt (Optional): If you have the server's private key, you can import it into Wireshark to decrypt traffic.
+
+
+
+### Certificate :-
+
+
+  ![1719419262303-30c747ff-6349-46da-8f1b-4ef119a867d3_1](https://github.com/user-attachments/assets/b7a6e259-0460-4083-99d5-71bf4065395c)
+
+
+
+
