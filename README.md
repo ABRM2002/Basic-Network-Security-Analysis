@@ -1,10 +1,10 @@
 # Basic Network Security Analysis
 
-## Objective
+## Objective:-
 
 The Basic Network Security Analysis is a guided project offered by coursera which guided me effectively to use Wireshark-a useful tool for capturing and analyzing network traffic. The course covers both encrypted and unencrypted protocols, including RADIUS, HTTP, DNS, Telnet, HTTPS, and SSH. Generating traffic for these protocols and gaining hands-on experience capturing and decrypting HTTPS traffic using a pre-master secret key. This project aims to enhance my understanding of network traffic analysis and secure communications.
 
-### Skills Learned
+## Skills Learned:-
 
 - Learnt how to troubleshoot with Wireshark, capture Traffic and analyze already captured Traffic.
 - Understood how to use Display and Capture Filters.
@@ -12,11 +12,11 @@ The Basic Network Security Analysis is a guided project offered by coursera whic
 - Enhanced my knowledge of Encrypted and Unencrypted Traffic by decrypting the HTTPS Traffic and also the RADIUS encypted password.
 - Development of network security skills in cybersecurity.
 
-### Tools Used
+## Tools Used:-
 
 - Network analysis tool called Wireshark for capturing and examining network traffic.
 
-## Steps
+# Steps:-
 
 ## Task 1: Get to know Wireshark and its basic functionalities
 
@@ -78,6 +78,7 @@ Knowing the basics about HTTP, and knowing the difference between Wireshark’s 
 
 
 
+
 ## Task 4: HTTP Form-Based Authentication and DNS
 
 ![Screenshot 2024-09-27 184442](https://github.com/user-attachments/assets/5b538f5d-12e2-4cf4-9832-a6f832921a48)
@@ -93,6 +94,8 @@ Initiating an HTTP Form-based authentication, capturing it in Wireshark and anal
   -Submit the Form: Enter credentials and submit the form.
   
   -Analyze Traffic: Examine HTTP POST requests containing form data and DNS requests/responses.
+
+
 
 
 
@@ -142,6 +145,8 @@ Opening a SSH Session with the same Device as in Task 5, capturing the traffic a
 -Capture Traffic by Host: Use filters like "ip.src==<host_ip>" or "ip.dst==<host_ip>".
 
 -View Conversations: Use the "Follow" menu to follow TCP streams or UDP flows.
+
+
 
 
 
