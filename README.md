@@ -16,6 +16,8 @@ The Basic Network Security Analysis is a guided project offered by coursera whic
 
 - Network analysis tool called Wireshark for capturing and examining network traffic.
 
+---
+
 # Steps:-
 
 ## Task 1: Get to know Wireshark and its basic functionalities
@@ -34,7 +36,7 @@ Capturing some network traffic that is flowing through the machine presently at 
 -Save the Capture: Click "File" -> "Save as" to save the captured data.
 
 
-
+---
 
 
 ## Task 2: Generate and Capture RADIUS Traffic
@@ -56,7 +58,7 @@ Knowing what the RADIUS Architecture consists of and decrypting the encrypted pa
 
 
 
-
+---
 
 
 ## Task 3: Analyze a HTTP Basic Authentication
@@ -76,7 +78,7 @@ Knowing the basics about HTTP, and knowing the difference between Wireshark’s 
  -Analyze Traffic: Examine HTTP requests and responses, focusing on the "Authorization" header.
 
 
-
+---
 
 
 ## Task 4: HTTP Form-Based Authentication and DNS
@@ -96,9 +98,7 @@ Initiating an HTTP Form-based authentication, capturing it in Wireshark and anal
   -Analyze Traffic: Examine HTTP POST requests containing form data and DNS requests/responses.
 
 
-
-
-
+---
 
 
 
@@ -119,7 +119,7 @@ Initiating an HTTP Form-based authentication, capturing it in Wireshark and anal
 
 
 
-
+---
 
 
 
@@ -148,7 +148,7 @@ Opening a SSH Session with the same Device as in Task 5, capturing the traffic a
 
 
 
-
+---
 
 
 
@@ -174,7 +174,7 @@ Decrypt the SSL traffic with the help of Pre Master Secret Key method.[sslkeylog
  
  -Decrypt (Optional): If you have the server's private key, you can import it into Wireshark to decrypt traffic.
 
-
+---
 
 ### Certificate :-
 
