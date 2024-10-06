@@ -14,7 +14,7 @@ The Basic Network Security Analysis is a guided project offered by coursera whic
 
 ## Tools Used:-
 
-- Network analysis tool called Wireshark for capturing and examining network traffic.
+- Network analysis tool called **Wireshark** for **capturing and examining network traffic**.
 
 ---
 
@@ -132,7 +132,9 @@ Initiating an HTTP Form-based authentication, capturing it in Wireshark and anal
 
 
 
-Opening a SSH Session with the same Device as in Task 5, capturing the traffic and comparing it with the Telnet Packet Capture. Capturing traffic based on the host involved and how to see all the host, packet and protocol statistics as well as conversations that have happened in a certain Capture
+Opening a SSH Session with the same Device as in Task 5, capturing the traffic and comparing it with the Telnet Packet Capture. 
+
+Capturing traffic based on the host involved and how to see all the host, packet and protocol statistics as well as conversations that have happened in a certain Capture
 
 
 
