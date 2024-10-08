@@ -2,7 +2,7 @@
 
 ## Objective:-
 
-The Basic Network Security Analysis is a guided project offered by coursera which guided me effectively to use Wireshark-a useful tool for capturing and analyzing network traffic. The course covers both encrypted and unencrypted protocols, including RADIUS, HTTP, DNS, Telnet, HTTPS, and SSH. Generating traffic for these protocols and gaining hands-on experience capturing and decrypting HTTPS traffic using a pre-master secret key. This project aims to enhance my understanding of network traffic analysis and secure communications.
+The Basic Network Security Analysis is a guided project offered by coursera which guided me effectively to use Wireshark-a useful tool for capturing and analyzing network traffic. The course covers both encrypted and unencrypted protocols, including **RADIUS, HTTP, DNS, Telnet, HTTPS, and SSH**. Generating traffic for these protocols and gaining hands-on experience capturing and decrypting HTTPS traffic using a pre-master secret key. This project aims to enhance my understanding of network traffic analysis and secure communications.
 
 ## Skills Learned:-
 
